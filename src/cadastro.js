@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 export default function Cadastro() {
     return (
@@ -12,6 +13,7 @@ export default function Cadastro() {
                     <input type="text" placeholder="Nome de usuário"/> 
                     <input type="password" placeholder="Senha"/> 
                     <button type="submit">Cadastre-se</button>
+                    <Link to="/">Já possui uma conta? Faça login</Link>
                 </form>
             </div>
         </div>

@@ -4,10 +4,12 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("./assets/img/gamer.jpg");
+  background-image: url("./assets/img/Folhas.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* background: linear-gradient(-90deg,#7159c1,#ab59c1); */
+
 }
 .Login{
   display: flex;
@@ -15,36 +17,59 @@
   align-items: center;
   justify-content: center;
   border: 0;
-  max-width: 350px; 
+  max-width: 260px; 
   text-align: center;
   background: transparent;
-  color: #0D214F;
+  width: 100%;
+  padding: 15px;
 }
 
 .Login > form{
   display: flex;
   flex-direction: column;
   padding-top: 10px;
-  width: 80%;
+  width: 100%;
 }
 
-.Login > form > input{
-  margin: 7px -50px;
-  padding: 5px;
-  background: #87CEFA;
-  color: #000000;
+.CampoLogin{
+  padding: 10px;
+  background: rgba(194, 49, 209, 0.6);
+  color: #FFF;
   border: 0;
 }
-.Login > form > button{
-  margin: 7px 0;
-  padding: 8px;
-  background: #c0c0c0;
+
+.CampoLogin::placeholder{
+  color: #EEE;
+}
+.BotaoEntrar{
+  padding: 13px;
+  background: rgba(94, 56, 164, 1);
   border: 0;
-  color: #000000;
+  color: #FFF;
   font-size: 16px; 
   transition: background 0.4s;
 }
-.Login > form > button:hover{
-  background: #77DD77;
+.BotaoEntrar:hover{
+  background: #170636;
   cursor: pointer;
+}
+.Login > h1{
+  font-family: comic-sans, helvetica;
+  color: #FFF;
+}
+.Login > form > a{
+  color: #FFF;
+}
+.BotaoSenha{
+  height: 100%;
+  padding: 0;
+  width: 100%;
+}
+.Login > form > div{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }

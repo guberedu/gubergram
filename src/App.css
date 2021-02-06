@@ -56,3 +56,6 @@
 .Cadastro > h1{
   font-family: comic-sans, helvetica;
 }
+.Cadastro > form > a{
+  color: #FFF;
+}
