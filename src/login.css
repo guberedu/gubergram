@@ -9,3 +9,42 @@
   background-position: center;
   background-size: cover;
 }
+.Login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  max-width: 350px; 
+  text-align: center;
+  background: transparent;
+  color: #0D214F;
+}
+
+.Login > form{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  width: 80%;
+}
+
+.Login > form > input{
+  margin: 7px -50px;
+  padding: 5px;
+  background: #87CEFA;
+  color: #000000;
+  border: 0;
+}
+.Login > form > button{
+  margin: 7px 0;
+  padding: 8px;
+  background: #c0c0c0;
+  border: 0;
+  color: #000000;
+  font-size: 16px; 
+  transition: background 0.4s;
+}
+.Login > form > button:hover{
+  background: #77DD77;
+  cursor: pointer;
+}

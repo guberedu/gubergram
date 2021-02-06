@@ -8,7 +8,7 @@ export default function Login() {
                 <form>
                     <input type="text" placeholder="Telefone, nome de usuário ou email"/> 
                     <input type="password" placeholder="Senha"/> 
-                    <button type="submit">Cadastre-se</button>
+                    <button type="submit">Entrar</button>
                 </form>
             </div>
         </div>
